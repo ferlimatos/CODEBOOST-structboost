@@ -102,3 +102,27 @@ header nav ul li a:hover {
 .s-hero .ilustra {
   padding: 0 1.5rem;
 }
+
+.s-digital {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+  padding-top: 128px;
+}
+
+.s-digital h3 {
+  text-align: center;
+  max-width: 53.5rem;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.s-digital ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-800);
+  padding-bottom: 128px;
+}

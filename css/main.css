@@ -256,4 +256,6 @@ footer .copy {
   text-align: center;
   color: var(--gray-600);
   letter-spacing: -0.54px;
+  font-weight: 500;
+  font-size: 16px;
 }

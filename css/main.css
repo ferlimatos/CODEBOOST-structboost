@@ -126,3 +126,48 @@ header nav ul li a:hover {
   border-bottom: 1px solid var(--gray-800);
   padding-bottom: 128px;
 }
+
+.s-art-front {
+  padding-top: 128px;
+}
+
+.s-art-front .title-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+
+.s-art-front .title-text h3 {
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  margin-bottom: 16px;
+}
+
+.s-art-front .title-text p {
+  color: var(--gray-600);
+  letter-spacing: -0.54px;
+}
+
+.s-art-front .title-text .left {
+  max-width: 539px;
+}
+
+.s-art-front .title-text .left p {
+  max-width: 452px;
+}
+
+.s-art-front .title-text .right {
+  max-width: 429px;
+}
+
+.s-art-front .all {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 32px;
+}
+
+.s-art-front .all .card-post:first-child {
+  grid-column: span 2;
+}
